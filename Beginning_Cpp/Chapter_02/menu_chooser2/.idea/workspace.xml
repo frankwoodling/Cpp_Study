@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
-      <config projectName="c02e02" targetName="c02e02" />
+      <config projectName="menu_chooser2" targetName="menu_chooser2" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
@@ -11,8 +11,8 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb860033-fa6e-47db-a701-b54bb3d0e539" name="Default" comment="" />
-    <ignored path="c02e02.iws" />
+    <list default="true" id="1e050877-b480-4d9c-b059-6f9e43e091af" name="Default" comment="" />
+    <ignored path="menu_chooser2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +27,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="c02e02" />
+    <favorites_list name="menu_chooser2" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -44,8 +44,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46601942">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.41747573">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -100,7 +100,7 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="c02e02" />
+              <option name="myItemId" value="menu_chooser2" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -108,8 +108,8 @@
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="Application.c02e02">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="c02e02" TARGET_NAME="c02e02" CONFIG_NAME="Debug">
+  <component name="RunManager" selected="Application.menu_chooser2">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="menu_chooser2" TARGET_NAME="menu_chooser2" CONFIG_NAME="Debug">
       <envs />
       <method />
     </configuration>
@@ -117,22 +117,22 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="c02e02" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="c02e02" TARGET_NAME="c02e02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="c02e02" RUN_TARGET_NAME="c02e02">
+    <configuration default="false" name="menu_chooser2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="menu_chooser2" TARGET_NAME="menu_chooser2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="menu_chooser2" RUN_TARGET_NAME="menu_chooser2">
       <envs />
       <method />
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.c02e02" />
+      <item index="1" class="java.lang.String" itemvalue="Application.menu_chooser2" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eb860033-fa6e-47db-a701-b54bb3d0e539" name="Default" comment="" />
-      <created>1454886433665</created>
+      <changelist id="1e050877-b480-4d9c-b059-6f9e43e091af" name="Default" comment="" />
+      <created>1454894612854</created>
       <option name="number" value="Default" />
-      <updated>1454886433665</updated>
+      <updated>1454894612854</updated>
     </task>
     <servers />
   </component>
@@ -140,7 +140,7 @@
     <frame x="57" y="46" width="932" height="1034" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07939914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -178,8 +178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46601942">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.41747573">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding />
         </state>
       </provider>
