@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
-      <config projectName="yes_or_no" targetName="yes_or_no" />
+      <config projectName="scoping" targetName="scoping" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
@@ -11,8 +11,8 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17b76761-6b22-4d1e-8215-bc0fd419d00a" name="Default" comment="" />
-    <ignored path="yes_or_no.iws" />
+    <list default="true" id="0cd8d359-f3a0-47a9-86f5-c3d0dc991783" name="Default" comment="" />
+    <ignored path="scoping.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +27,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="yes_or_no" />
+    <favorites_list name="scoping" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -44,12 +44,9 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.058252428">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding>
-                <element signature="e#59#78#0" expanded="true" />
-                <marker date="1455234140923" expanded="true" signature="277:397" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.9611651">
+              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,7 +100,7 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="yes_or_no" />
+              <option name="myItemId" value="scoping" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -111,12 +108,8 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-  </component>
-  <component name="RunManager" selected="Application.yes_or_no">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="yes_or_no" TARGET_NAME="yes_or_no" CONFIG_NAME="Debug">
+  <component name="RunManager" selected="Application.scoping">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="scoping" TARGET_NAME="scoping" CONFIG_NAME="Debug">
       <envs />
       <method />
     </configuration>
@@ -124,30 +117,30 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="yes_or_no" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="yes_or_no" TARGET_NAME="yes_or_no" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="yes_or_no" RUN_TARGET_NAME="yes_or_no">
+    <configuration default="false" name="scoping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="scoping" TARGET_NAME="scoping" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="scoping" RUN_TARGET_NAME="scoping">
       <envs />
       <method />
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.yes_or_no" />
+      <item index="1" class="java.lang.String" itemvalue="Application.scoping" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="17b76761-6b22-4d1e-8215-bc0fd419d00a" name="Default" comment="" />
-      <created>1455233642070</created>
+      <changelist id="0cd8d359-f3a0-47a9-86f5-c3d0dc991783" name="Default" comment="" />
+      <created>1455308558351</created>
       <option name="number" value="Default" />
-      <updated>1455233642070</updated>
+      <updated>1455308558351</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="21" width="931" height="1059" extended-state="4" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08807734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.111707844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -185,12 +178,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.058252428">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#59#78#0" expanded="true" />
-            <marker date="1455234140923" expanded="true" signature="277:397" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.9611651">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
