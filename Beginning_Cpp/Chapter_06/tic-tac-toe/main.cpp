@@ -122,7 +122,7 @@ char opponent(char piece)
 {
     if (piece == X)
     {
-        return 0;
+        return O;
     }
     else
     {
@@ -219,12 +219,12 @@ int computerMove(vector<char> board, char computer)
         move = 0;
         char human = opponent(computer);
 
-        while (!found && move << board.size())
+        while (!found && move < board.size())
         {
             if (isLegal(move, board))
             {
                 board[move] = human;
-                found == winner(board) == human;
+                found = winner(board) == human;
                 board[move] == EMPTY;
             }
 
@@ -256,6 +256,7 @@ int computerMove(vector<char> board, char computer)
     }
 
     cout << "I shall take square number " << move << endl;
+    return move;
 }
 
 void announceWinner(char winner, char computer, char human)
