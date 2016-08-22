@@ -1,5 +1,5 @@
-/*
-#include <boost/lambda/lambda.hpp>
+
+/*#include <boost/lambda/lambda.hpp>
 #include <iostream>
 #include <iterator>
 #include <algorithm>
@@ -14,25 +14,22 @@ int main()
 }*/
 
 // ##########################################################
-/*
-#include <boost/timer/timer.hpp>
-#include <iostream>
-#include <cmath>
-
-using namespace boost::timer;
-
-int main()
-{
-    cpu_timer timer;
-
-    for (int i = 0; i < 1000000; ++i)
-        std::pow(1.234, i);
-    std::cout << timer.format() << '\n';
-}
-*/
+//#include <boost/timer/timer.hpp>
+//#include <iostream>
+//#include <cmath>
+//
+//using namespace boost::timer;
+//
+//int main()
+//{
+//    cpu_timer timer;
+//
+//    for (int i = 0; i < 1000000; ++i)
+//        std::pow(1.234, i);
+//    std::cout << timer.format() << '\n';
+//}
 
 // ##########################################################
-
 
 /*
 #include <iostream>
@@ -60,33 +57,63 @@ string GetValue(Object::Ptr aoJsonObject, const char *aszKey) {
     return lsReturn;
 }
 */
+// ##########################################################
+
+//#include <stdio.h>
+//#include "curl/curl.h"
+//
+//int main(){
+//    CURL* curl = curl_easy_init();
+//    if(!curl){
+//        fprintf(stderr, "curl initialization failure");
+//        return 128;
+//    }
+//
+//    CURLcode res = CURLE_OK;
+//    if ((res = curl_easy_setopt(curl, CURLOPT_URL, "https://raw.githubusercontent.com/learnclang/current/cmake-and-libcurl/README.md")) != CURLE_OK){
+//        fprintf(stderr, curl_easy_strerror(res));
+//        return 1;
+//    }
+//    if ((res = curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L)) != CURLE_OK){
+//        fprintf(stderr, curl_easy_strerror(res));
+//        return 1;
+//    }
+//    if((res = curl_easy_perform(curl)) != CURLE_OK){
+//        fprintf(stderr, curl_easy_strerror(res));
+//        return 1;
+//    }
+//
+//    curl_easy_cleanup(curl);
+//    return 0;
+//}
 
 // ##########################################################
 
 #include <stdio.h>
-#include "curl/curl.h"
+#include <curl/curl.h>
 
-int main(){
-    CURL* curl = curl_easy_init();
-    if(!curl){
-        fprintf(stderr, "curl initialization failure");
-        return 128;
-    }
+int main(void)
+{
+    CURL *curl;
+    CURLcode res;
 
-    CURLcode res = CURLE_OK;
-    if ((res = curl_easy_setopt(curl, CURLOPT_URL, "https://raw.githubusercontent.com/learnclang/current/cmake-and-libcurl/README.md")) != CURLE_OK){
-        fprintf(stderr, curl_easy_strerror(res));
-        return 1;
-    }
-    if ((res = curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L)) != CURLE_OK){
-        fprintf(stderr, curl_easy_strerror(res));
-        return 1;
-    }
-    if((res = curl_easy_perform(curl)) != CURLE_OK){
-        fprintf(stderr, curl_easy_strerror(res));
-        return 1;
-    }
+    curl = curl_easy_init();
+    if(curl) {
+        curl_easy_setopt(curl, CURLOPT_URL, "http://www.google.com");
+        /* example.com is redirected, so we tell libcurl to follow redirection */
+        curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
 
-    curl_easy_cleanup(curl);
+        /* Perform the request, res will get the return code */
+        res = curl_easy_perform(curl);
+        /* Check for errors */
+        if(res != CURLE_OK)
+            fprintf(stderr, "curl_easy_perform() failed: %s\n",
+                    curl_easy_strerror(res));
+
+        /* always cleanup */
+        curl_easy_cleanup(curl);
+    }
     return 0;
 }
+
+//need to build dynamic curl, not static
