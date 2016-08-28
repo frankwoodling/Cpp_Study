@@ -11,9 +11,9 @@ int main(){
     using namespace std;
     inflatable guest =
             {
-                    "Glorious Gloria", // name value
-                    1.88, // volume value
-                    29.99 // price value
+                    "Glorious Gloria",
+                    1.88,
+                    29.99
             };
     inflatable pal =
             {
