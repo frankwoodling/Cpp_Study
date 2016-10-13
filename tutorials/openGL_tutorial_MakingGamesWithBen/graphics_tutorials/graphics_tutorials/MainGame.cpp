@@ -1,4 +1,5 @@
 #include "MainGame.h"
+#include "Sprite.h"
 #include <iostream>
 #include <string>
 
@@ -25,6 +26,8 @@ MainGame::~MainGame()
 
 void MainGame::run() {
 	initSystems();
+
+	_sprite.init(-1.0f, -1.0f, 1.0f, 1.0f);
 
 	gameLoop();
 }
@@ -83,6 +86,8 @@ void MainGame::drawGame() {
 
 	// clear color and depth buffer
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+	_sprite.draw();
 
 	// Swap buffer and draw everything to screen
 	SDL_GL_SwapWindow(_window);

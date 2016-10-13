@@ -1,5 +1,6 @@
 #pragma once
 #include <GL/glew.h>
+#include "Sprite.h"
 
 class Sprite
 {
@@ -7,17 +8,18 @@ public:
 	Sprite();
 	~Sprite();
 
-	void init(int x, int y, int width, int height);
+	void init(float x, float y, float width, float height);
 
 	void draw();
 
 private:
-	int _x;
-	int _y;
-	int _width;
-	int _height;
+	float _x;
+	float _y;
+	float _width;
+	float _height;
 
 	// GLuint stands for GL unsigned int, used for vertex buffer objects
 	GLuint _vboID;
+
 };
 
